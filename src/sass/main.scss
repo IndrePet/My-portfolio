@@ -1,3 +1,8 @@
-h1 {
-  color: pink;
+@use './base';
+@use './layout/navigation';
+@use './layout/hero';
+
+* {
+  margin: 0;
+  box-sizing: border-box;
 }

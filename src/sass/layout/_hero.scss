@@ -1,0 +1,42 @@
+@use '../abstracts' as *;
+@use '../base' as *;
+
+.hero {
+  background-color: $hero;
+  &__container {
+    height: 90vh;
+    @include flex(center);
+    &--left {
+      @include flex(center);
+      flex-direction: column;
+      p {
+        font-size: $font-size-hero_p;
+      }
+
+      h1 {
+        font-size: $font-size-hero_h1;
+      }
+
+      &--ca {
+        @include flex(center);
+        gap: 1.5rem;
+        font-size: $font-size-hero-icons;
+        a {
+          color: $off-black;
+          &:hover {
+            color: #fff;
+          }
+        }
+      }
+    }
+    &--right {
+      img {
+        display: none;
+        @include tablet {
+          display: inline;
+          height: 90vh;
+        }
+      }
+    }
+  }
+}

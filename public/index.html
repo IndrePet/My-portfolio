@@ -9,7 +9,6 @@
       src="https://kit.fontawesome.com/faf40ee44e.js"
       crossorigin="anonymous"
     ></script>
-    <!-- kazkodel neveikia -->
     <link rel="shortcut icon" href="./assets/favicon/favicon.ico" />
     <link rel="stylesheet" href="main.css" />
     <title>Indrė Petrauskaitė - CV</title>
@@ -18,9 +17,7 @@
     <!-- NAVIGATION -->
     <nav class="navbar nav--primary">
       <a href="" class="navbar__logo">
-        <div class="navabar__logo--icon">
-          <i class="fa-solid fa-laptop-code"></i>
-        </div>
+        <i class="fa-solid fa-laptop-code navabar__logo--icon"></i>
         <h2 class="navbar__logo--title">{Indrė Petrauskaitė}</h2>
       </a>
       <div class="navbar__bars">
@@ -28,7 +25,7 @@
       </div>
       <ul class="navbar__menu">
         <li class="navbar__menu__item">
-          <a href="" class="navbar__menu__item--link">Home</a>
+          <a href="#" class="navbar__menu__item--link">Home</a>
         </li>
         <li class="navbar__menu__item">
           <a href="" class="navbar__menu__item--link">About me</a>
@@ -43,14 +40,22 @@
           <a href="" class="navbar__menu__item--link">CV</a>
         </li>
         <li class="navbar__menu__item">
-          <a href="" class="navbar__menu__item--link"
-            ><i class="fa-brands fa-linkedin-in"></i
-          ></a>
+          <a
+            href="https://www.linkedin.com/in/indrepet/"
+            target="_blank"
+            class="navbar__menu__item--icon"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
         </li>
         <li class="navbar__menu__item">
-          <a href="" class="navbar__menu__item--link"
-            ><i class="fa-brands fa-github"></i
-          ></a>
+          <a
+            href="https://github.com/IndrePet"
+            target="_blank"
+            class="navbar__menu__item--icon"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
         </li>
       </ul>
     </nav>
@@ -58,9 +63,33 @@
 
     <main>
       <!-- START OF HERO SECTION -->
-      <section class="hero"></section>
+      <section class="hero">
+        <div class="hero__container">
+          <div class="hero__container--left">
+            <p>Hello, my name is...</p>
+            <h1>Indrė</h1>
+            <div class="hero__container--left--ca">
+              <a
+                href="https://www.linkedin.com/in/indrepet/"
+                target="_blank"
+                class="hero__container_ca--linkedin"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+              <a
+                href="https://github.com/IndrePet"
+                target="_blank"
+                class="hero__container__ca--github"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="hero__container--right">
+            <img src="./assets/myavatar.svg" alt="avatar" />
+          </div>
+        </div>
+      </section>
       <!-- END OF HERO SECTION -->
-      <section class="about-me"></section>
+      <section class="about"></section>
       <section class="projects"></section>
       <section class="contact"></section>
     </main>

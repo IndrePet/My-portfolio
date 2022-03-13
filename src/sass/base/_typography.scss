@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Huballi-Regular';
+  src: url('../../../public/assets/fonts/Hubballi-Regular.ttf');
+}
+
+// Font families
+
+$font-family-nav: 'Huballi-Regular', sans-serif;
+/////////////
+// Font sizes
+
+//Navigation
+$font-size-nav_logo-s: 1rem;
+$font-size-nav_logo-m: 1.5rem;
+$font-size-nav_logo-l: 2rem;
+
+$font-size-nav_items: 1.5rem;
+
+//Hero
+$font-size-hero_p: 1rem;
+$font-size-hero_h1: 3rem;
+$font-size-hero-icons: 2rem;
